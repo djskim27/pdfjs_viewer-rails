@@ -1892,7 +1892,7 @@ var validateFileURL = void 0;
       return;
     }
     try {
-      var viewerOrigin = new URL(window.location.href).origin || 'null';
+      var viewerOrigin = 'https://s3.amazonaws.com';
       if (HOSTED_VIEWER_ORIGINS.indexOf(viewerOrigin) >= 0) {
         return;
       }
